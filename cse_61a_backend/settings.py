@@ -97,8 +97,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'cse_61a_backend.wsgi.application'
 
-
-# Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
