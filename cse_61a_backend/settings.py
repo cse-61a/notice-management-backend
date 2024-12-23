@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-dlxwl3+#_rt37iuu!^r#-_q7929dmq1p2=zspru1qs3!%uw0%6
 DEBUG = True
 
 CORS_ORIGIN_ALLOW_ALL = True
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "notice-management-backend.onrender.com",
+    "127.0.0.1",
+    "localhost"
+]
 CSRF_TRUSTED_ORIGINS = [
     'https://notice-management-backend.onrender.com/',
     'https://*.127.0.0.1',
