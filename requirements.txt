@@ -11,6 +11,7 @@ django-crispy-forms
 django-email
 django-environ
 django-filter
+django-jazzmin
 djangorestframework
 EasyProcess
 entrypoint2
