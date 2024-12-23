@@ -48,6 +48,11 @@ CORS_ALLOW_HEADERS = [
     "user-agent",
 ]
 
+CSRF_COOKIE_SECURE = True  # Ensure CSRF cookies are sent over HTTPS
+SESSION_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True  # Redirect HTTP to HTTPS
+
+
 
 # Application definition
 
