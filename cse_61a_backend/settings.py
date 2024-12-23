@@ -109,10 +109,10 @@ WSGI_APPLICATION = 'cse_61a_backend.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(
+        # Replace this value with your local database's connection string.
+        default='postgresql://notice_management_user:bgdRPI4382n1XigIEqUqeFEnCwfPSbgc@dpg-ctkot2tds78s73c1i7mg-a.oregon-postgres.render.com/notice_management',
+    )
 }
 
 REST_FRAMEWORK = {
